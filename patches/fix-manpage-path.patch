@@ -1,0 +1,15 @@
+Description: Edit Makefile to support $DESTDIR and FHS
+
+--- a/Makefile
++++ b/Makefile
+@@ -1,8 +1,8 @@
+ CFLAGS = -DSHAPE -Wall -Werror
+ LDLIBS = -lXext -lX11
+-BIN = /usr/bin/X11
++BIN = $(DESTDIR)/usr/bin/X11
+ 
+-MANDIR = /usr/man/man1
++MANDIR = $(DESTDIR)/usr/share/man/man1
+ MANSUFFIX = 1
+ 
+ all: 9wm
