@@ -6,7 +6,7 @@ Description: Edit Makefile to support $DESTDIR and FHS as well as create its own
  CFLAGS = -DSHAPE -Wall -Werror
  LDLIBS = -lXext -lX11
 -BIN = /usr/bin/X11
-+BIN = $(DESTDIR)/usr/bin/X11
++BIN = $(DESTDIR)/usr/bin
  
 -MANDIR = /usr/man/man1
 +MANDIR = $(DESTDIR)/usr/share/man/man1
