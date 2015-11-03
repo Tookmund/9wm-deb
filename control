@@ -6,8 +6,7 @@ Build-Depends:
  debhelper (>= 9.0),
  libx11-dev,
  libxext-dev,
- x11proto-core-dev,
- xutils-dev
+ x11proto-core-dev
 Standards-Version: 3.9.6
 Homepage: https://woozle.org/neale/g.cgi/x11/9wm/
 Vcs-Git: https://github.com/Tookmund/9wm
