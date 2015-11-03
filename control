@@ -21,5 +21,8 @@ Provides:
  x-window-manager
 Suggests:
  9menu
-Description: X11 window manager inspired by the Plan 9 window manager 8½.
- 9wm provides a very simple and clean user interface. It is click-to-type. It us es the X11 font system (which, unfortunately, means no Unicode support).
+Description:  9wm is an X window manager which attempts to emulate the Plan 9 
+window manager 8-1/2 as far as possible within the constraints imposed by X.
+.
+It provides a simple yet comfortable user interface, without garish decorations
+or title-bars. Or icons. And it's click-to-type. 
