@@ -1,15 +1,26 @@
 Source: 9wm
-Section: unknown
+Section: x11
 Priority: optional
 Maintainer: Jacob Adams <tookmund@gmail.com>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/9wm.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/9wm.git;a=summary
+Build-Depends:
+ debhelper (>= 9.0),
+ libx11-dev,
+ libxext-dev,
+ x11proto-core-dev,
+ xutils-dev
+Standards-Version: 3.9.6
+Homepage: https://woozle.org/neale/g.cgi/x11/9wm/
+Vcs-Git: https://github.com/Tookmund/9wm
+Vcs-Browser: https://github.com/Tookmund/9wm
 
 Package: 9wm
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends}
+Provides:
+ x-window-manager
+Suggests:
+ 9menu
+Description: X11 window manager inspired by the Plan 9 window manager 8½.
+ 9wm provides a very simple and clean user interface. It is click-to-type. It us es the X11 font system (which, unfortunately, means no Unicode support).
