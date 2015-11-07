@@ -1,7 +1,8 @@
-9wm (1.3.2-1) UNRELEASED; urgency=low
+9wm (1.3.3-1) UNRELEASED; urgency=low
 
   * New Maintainer (Closes: #660496)
   * New Upstream (https://woozle.org/neale/g.cgi/x11/9wm/)
+  * Redo packaging
 
  -- Jacob Adams <tookmund@gmail.com>  Mon, 02 Nov 2015 23:15:00 -0500
 
