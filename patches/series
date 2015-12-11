@@ -1,1 +1,2 @@
 FHS-install-paths.patch
+compile-objects-fPIC.patch
