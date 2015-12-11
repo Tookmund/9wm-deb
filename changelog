@@ -3,7 +3,7 @@
   * New Maintainer (Closes: #660496)
   * New Upstream (https://woozle.org/neale/g.cgi/x11/9wm/)
   * copyright: Update to machine-readable format 
-  * 9wm.{dirs,docs,menu}: Remove unecessary files
+  * 9wm.{dirs,docs,menu}: Remove unnecessary files
   * compat: Bump to 9
   * control: Remove outdated dependencies
   * control: Add packaging VCS
