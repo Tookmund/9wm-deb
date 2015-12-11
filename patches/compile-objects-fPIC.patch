@@ -1,3 +1,5 @@
+Description: Fix build error by adding -fPIC
+Forwarded: yes
 --- a/Makefile
 +++ b/Makefile
 @@ -1,4 +1,4 @@
