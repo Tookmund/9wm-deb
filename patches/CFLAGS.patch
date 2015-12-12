@@ -1,4 +1,5 @@
-Description: Fix build error by adding -fPIC
+Description: Fix build error by adding -fPIC and importing CFLAGS from the enviornment
+Author: Jacob Adams <tookmund@gmail.com>
 Forwarded: yes
 --- a/Makefile
 +++ b/Makefile
