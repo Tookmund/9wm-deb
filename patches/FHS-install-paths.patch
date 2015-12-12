@@ -1,5 +1,6 @@
 Description: Edit install paths to match FHS
 Forwarded: yes
+Author: Jacob Adams
 --- a/Makefile
 +++ b/Makefile
 @@ -1,8 +1,8 @@
