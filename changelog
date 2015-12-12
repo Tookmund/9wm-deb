@@ -10,6 +10,9 @@
   * control: Add packaging VCS
   * rules: Use dh
   * watch: Update for new upstream 
+  * patches/FHS-install-paths: Install 9wm to FHS-compliant paths
+  * patches/CFLAGS.patch: Add -fPIC and import enviornment CFLAGS
+  * debian/source/format: Create and set to 3.0 (quilt)
 
  -- Jacob Adams <tookmund@gmail.com>  Fri, 11 Dec 2015 19:34:34 -0500
 
