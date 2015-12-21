@@ -1,9 +1,3 @@
-9wm (1.3.5) unstable; urgency=medium
-
-  * rules: Build in parallel
-
- -- Jacob Adams <jacob@ford.local.tld>  Sun, 13 Dec 2015 13:43:05 -0500
-
 9wm (1.3.4-1) unstable; urgency=low
 
   * New Maintainer (Closes: #660496)
