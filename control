@@ -8,9 +8,9 @@ Build-Depends:
  libxext-dev,
  x11proto-core-dev
 Standards-Version: 3.9.6
-Homepage: https://woozle.org/neale/g.cgi/x11/9wm/
-Vcs-Git: https://github.com/Tookmund/9wm
-Vcs-Browser: https://github.com/Tookmund/9wm
+Homepage: https://github.com/nealey/9wm
+Vcs-Git: https://github.com/Tookmund/9wm-deb
+Vcs-Browser: https://github.com/Tookmund/9wm-deb
 
 Package: 9wm
 Architecture: any
