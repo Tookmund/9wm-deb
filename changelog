@@ -2,6 +2,8 @@
 
   * rules: Build in parallel
   * patches/*: Remove patches applied upstream
+  * control and watch: Upstream moved to Github 
+  * 
 
  -- Jacob Adams <tookmund@gmail.com>  Sat, 23 Jan 2016 15:51:58 -0500
 
