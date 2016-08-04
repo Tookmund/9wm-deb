@@ -21,7 +21,7 @@ Provides:
  x-window-manager
 Suggests:
  9menu
-Description: X11 window manager inspired by the Plan 9's rio
+Description: X11 window manager inspired by Plan 9's rio
  It provides a very simple and clean user interface. It is click-to-type. It 
  uses the X11 font system (which, unfortunately, means no Unicode support).
  .
