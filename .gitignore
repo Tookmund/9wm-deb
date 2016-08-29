@@ -2,3 +2,4 @@
 *.substvars
 files
 9wm
+debhelper-build-stamp
