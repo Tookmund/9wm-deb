@@ -1,16 +1,17 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: 9wm
-Upstream-Contact: Neale Pickett <neale@woozle.org>
-Source: https://woozle.org/neale/g.cgi/x11/9wm/
+Upstream-Contact: Jacob Adams <tookmund@gmail.com>
+Source: https://github.com/9wm/9wm
 
 Files: *
 Copyright: 1994-1996 David Hogan
 	   2009 The Estate of David Hogan
-	   2014 Neale Pickett
+	   2016 Neale Pickett
+	   2016 Jacob Adams
 License: Expat
 
 Files: debian/*
-Copyright: 2015 Jacob Adams <tookmund@gmail.com>
+Copyright: 2016 Jacob Adams <tookmund@gmail.com>
 License: Expat
 
 License: Expat
